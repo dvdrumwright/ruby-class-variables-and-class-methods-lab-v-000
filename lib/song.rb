@@ -30,9 +30,9 @@ attr_accessor :name, :artist, :genre
       @@genres.uniq 
     end 
     
-  def genre_count(genre)
-  genre.each do |genre| 
-    @@genres(genre)
+  def genre_count 
+    genre_count.each do |genre| 
+      @@genres(genre) = 
   
   
   end 
