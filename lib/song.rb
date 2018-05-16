@@ -34,7 +34,7 @@ attr_accessor :name, :artist, :genre
     @@genres.each do |genre| 
       @@genres(genre) = @@genres.count(genre)
     end 
-  
+  @@genre_count
   end 
   
   
